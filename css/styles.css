@@ -325,6 +325,173 @@ img {
   background-color: var(--third-background-color);
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+
+  color: #e2e2e2;
+}
+
+.first-block {
+  box-sizing: border-box;
+  width: 300px;
+  margin-right: 20px;
+  /* margin-left: 20px; */
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.information-block {
+  box-sizing: border-box;
+  width: 180px;
+  padding-left: 20px;
+  margin-right: 20px;
+
+  border-left: #222222 solid 1px;
+}
+
+.collection-block {
+  box-sizing: border-box;
+  width: 180px;
+  padding-left: 20px;
+  margin-right: 20px;
+
+  border-left: #222222 solid 1px;
+}
+
+.support-block {
+  box-sizing: border-box;
+  width: 180px;
+  padding-left: 20px;
+  margin-right: 20px;
+
+  border-left: #222222 solid 1px;
+}
+
+.contacts-block {
+  box-sizing: border-box;
+  padding-left: 20px;
+
+  border-left: #222222 solid 1px;
+}
+
+.contacts-address {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 2;
+}
+
+.social-block {
+  margin-top: 40px;
+}
+
+/* .social-title {
+  margin-bottom: 10px;
+} */
+
+.social-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.youtube {
+  width: 29px;
+  height: 20px;
+
+  fill: #ffffff;
+  background-color: #000000;
+
+  border-radius: 6px;
+
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+
+.social-list-link:hover .youtube,
+.social-list-link:focus .youtube {
+  fill: #ff0000;
+  background-color: #ffffff;
+}
+
+.vkontakte {
+  width: 34px;
+  height: 17px;
+
+  fill: #ffffff;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+
+.social-list-link:hover .vkontakte,
+.social-list-link:focus .vkontakte {
+  fill: #0077ff;
+}
+
+.odnoklassniki {
+  width: 16px;
+  height: 26px;
+
+  fill: #ffffff;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+
+.social-list-link:hover .odnoklassniki,
+.social-list-link:focus .odnoklassniki {
+  fill: #ff7701;
+}
+
+.telegram {
+  width: 28px;
+  height: 22px;
+
+  fill: #ffffff;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+
+.social-list-link:hover .telegram,
+.social-list-link:focus .telegram {
+  fill: #28a8e9;
+}
+
+.description {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  line-height: 2;
+
+  margin-bottom: 40px;
+}
+
+.h2-footer {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-icon {
+  fill: #ffffff;
+}
+
 /* ============================== */
 
 /* :not(:last-child) */
