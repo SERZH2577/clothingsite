@@ -446,7 +446,10 @@ img {
 }
 
 .contacts-email_icon {
+  width: 18px;
+  height: 16px;
   margin-right: 5px;
+  fill: #ffffff;
 }
 
 .social-block {
