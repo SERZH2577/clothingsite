@@ -321,7 +321,7 @@ img {
 
   height: auto;
 
-  padding: 40px;
+  padding: 60px 0;
   background-color: var(--third-background-color);
 }
 
@@ -342,6 +342,43 @@ img {
 .footer-logo {
   display: block;
   margin-bottom: 40px;
+}
+
+.description {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  line-height: 2;
+
+  margin-bottom: 40px;
+}
+
+.payment-list {
+  display: flex;
+}
+
+.payment-list-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.mir {
+  width: 60px;
+  height: 18px;
+}
+
+.visa {
+  width: 56px;
+  height: 18px;
+}
+
+.mastercard {
+  width: 28px;
+  height: 18px;
+}
+
+.paypal {
+  width: 78px;
+  height: 21px;
 }
 
 .information-block {
@@ -379,9 +416,37 @@ img {
 }
 
 .contacts-address {
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
   line-height: 2;
+}
+
+.contacts-phone_text {
+  display: flex;
+  align-items: center;
+
+  font-size: 13px;
+  line-height: 2;
+}
+
+.contacts-phone_icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.contacts-email_link {
+  display: flex;
+  align-items: center;
+
+  font-size: 13px;
+  line-height: 2;
+  color: #e2e2e2;
+  margin-right: 3px;
+}
+
+.contacts-email_icon {
+  margin-right: 5px;
 }
 
 .social-block {
@@ -470,22 +535,12 @@ img {
   fill: #28a8e9;
 }
 
-.description {
-  display: block;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-  line-height: 2;
-
-  margin-bottom: 40px;
-}
-
 .h2-footer {
   font-size: 14px;
   font-weight: 700;
   color: var(--secondary-text-color);
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .footer-icon {
