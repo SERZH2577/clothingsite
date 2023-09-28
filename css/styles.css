@@ -309,6 +309,30 @@ img {
   height: 10px;
 }
 
+/* ====== CATEGORY ====== */
+
+.category-container {
+  padding: 60px 0;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-list-item:not(:last-child) {
+  margin-right: 20px;
+}
+
 /* ====== FOOTER ====== */
 
 .footer-section {
