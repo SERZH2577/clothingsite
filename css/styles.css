@@ -100,8 +100,8 @@ img {
 .product {
   color: var(--primary-text-color);
 
-  border-radius: 14px;
-  padding: 10px;
+  border-radius: 16px;
+  padding: 15px;
 
   transition-duration: 300ms;
   transition-timing-function: var(--main-timing);
@@ -117,7 +117,7 @@ img {
 .product-img {
   border: 1px solid #e2e2e2;
   border-radius: 8px;
-  width: calc((1200px - 198px) / 4);
+  width: calc((1200px - 239px) / 4);
   margin-bottom: 20px;
 }
 
