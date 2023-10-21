@@ -1,13 +1,24 @@
 :root {
   --primary-text-color: #000000;
   --secondary-text-color: #ffffff;
-  --third-text-color: #999999;
+  /* --third-text-color: #999999; */
+  --third-text-color: #f28b82;
+
   /* --primary-title-color: #212121; */
   /* --accent-color: #2196f3; */
   --primary-background-color: #ffffff;
   /* --secondary-background-color: #f5f4fa; */
-  --third-background-color: #000000;
+  --third-background-color: #6c1212;
   /* --icon-color: #afb1b8; */
+
+  /* --color-zero: #6e0009; */
+  /* --color-one: #6c1212; */
+  /* --color-two: #861616; */
+  /* --color-three: #831d1d; */
+  /* --color-four: #a71c1c; */
+  /* --color-five: #b03333; */
+  /* --color-six: #bb5050; */
+  /* --color-seven: #f28b82; */
 
   --main-timing: cubic-bezier(0.4, 0, 0.2, 1);
 }
