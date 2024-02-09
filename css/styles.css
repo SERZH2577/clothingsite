@@ -84,10 +84,17 @@ img {
 }
 
 .logo {
-  font-size: 30px;
+  font-family: 'IBM Plex Sans';
+  font-size: 50px;
   font-weight: 700;
-  letter-spacing: 10px;
+  letter-spacing: 0.01em;
   color: var(--secondary-text-color);
+}
+
+.logo-icon {
+  width: 160px;
+  height: 60px;
+  fill: #ffffff;
 }
 
 /* ====== PRODUCT CARD ====== */
@@ -364,6 +371,7 @@ img {
 
   height: 110px;
   box-sizing: border-box;
+  padding-top: 10px;
   padding-bottom: 15px;
   padding-left: 40px;
   padding-right: 40px;
